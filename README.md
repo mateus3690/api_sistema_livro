@@ -7,6 +7,8 @@ Instruções:
     Clone o repositório:
 
      >> git clone https://github.com/mateus3690/api_sistema_livro.git
+     
+     >> cd api_sistema_livro/src
 
     Inicie fazendo a build para docker
 
