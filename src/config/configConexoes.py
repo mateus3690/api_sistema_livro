@@ -20,5 +20,6 @@ class AcessoENV():
     def acessoAPP(self):
         APP = {
             "versao":os.getenv("VERSAO"),
+            "port":os.getenv("PORTSERV")
         }
         return APP

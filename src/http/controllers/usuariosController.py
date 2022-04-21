@@ -1,9 +1,9 @@
-from database.dbase import ComponenteDB
-from database.usuariosTB import usuario
-from utils.validadoresCampos import ValidaCampo
+from src.database.dbase import ComponenteDB
+from src.database.usuariosTB import usuario
+from src.utils.validadoresCampos import ValidaCampo
 from flask_restful import Resource
 from flask import request
-from config.configAuth import crypMD5
+from src.config.configAuth import crypMD5
 
 
 class UsuarioController(Resource):

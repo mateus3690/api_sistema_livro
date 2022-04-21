@@ -1,6 +1,6 @@
 from turtle import update
 import repackage
-from database.dbase import ComponenteDB
+from src.database.dbase import ComponenteDB
 from datetime import datetime
 repackage.up()
 

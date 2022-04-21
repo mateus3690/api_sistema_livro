@@ -1,5 +1,5 @@
-from database.dbase import ComponenteDB
-from config.configAuth import crypMD5
+from src.database.dbase import ComponenteDB
+from src.config.configAuth import crypMD5
 
 def usuario(email, senha):
 

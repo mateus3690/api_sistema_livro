@@ -2,9 +2,9 @@ import repackage
 repackage.up()
 
 from src.http.api.jobAtualizarStatus import monitoraDevolucao
-from database.dbase import ComponenteDB
-from database.usuariosTB import usuario
-from utils.manipulacaoDevolucao import tempoDevolucao
+from src.database.dbase import ComponenteDB
+from src.database.usuariosTB import usuario
+from src.utils.manipulacaoDevolucao import tempoDevolucao
 from flask_restful import Resource
 from flask import request
 from datetime import datetime

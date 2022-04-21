@@ -1,5 +1,4 @@
-from msilib.schema import Error
-from config.configDB import conexao
+from src.config.configDB import conexao
 import repackage
 repackage.up()
 

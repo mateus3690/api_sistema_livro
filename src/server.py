@@ -13,7 +13,9 @@ from src.http.controllers.livrariaController import LivrariaController
 
 path = AcessoENV()
 path = path.acessoAPP()
+port = path['port']
 path = path['versao']
+
 
 app = Flask(__name__)
 CORS(app)
@@ -27,6 +29,6 @@ api.add_resource(LivrariaController, f'/{path}/livros/')
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0' , port=port)
 
      
