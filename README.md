@@ -6,7 +6,7 @@ Instruções:
 
     Clone o repositório:
 
-     >> git clone https://github.com/mateus3690/desafio-mesha.git
+     >> git clone https://github.com/mateus3690/api_sistema_livro.git
      
      >> cd api_sistema_livro/src
 
